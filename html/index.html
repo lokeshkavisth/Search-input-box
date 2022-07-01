@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!---------------------- fontawesome cdn link  ---------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!---------------------- css file link  ---------------------->
+  <link rel="stylesheet" href="/styles/styles.css">
+
+  <title>Search input box</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="search-box">
+      <div class="select-menu" id="select">
+        <p id="selectText">all categories</p>
+        <span><i class="fa-solid fa-caret-down"></i></span>
+        <ul id="list">
+          <li class="options">all categories</li>
+          <li class="options">accessories</li>
+          <li class="options">electronics</li>
+          <li class="options">fashion</li>
+          <li class="options">beauty and cosmetics</li>
+          <li class="options">house and furniture</li>
+        </ul>
+      </div>
+      <input type="text" name="categories" id="inputarea" placeholder="search in all categories">
+    </div>
+  </div>
+
+  <!------------- JavaScript file link  ------------->
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
